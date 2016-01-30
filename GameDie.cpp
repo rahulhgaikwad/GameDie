@@ -8,7 +8,7 @@ GameDie::GameDie()
 {
 }
 
-//generate a random number between 1-6 (inclusive) and display it
+//generate a random number between 1-6 (inclusive) and return it
 int GameDie::roll()
 {
     srand(static_cast<unsigned int>(time(NULL)%1000));
